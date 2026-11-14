@@ -1,4 +1,4 @@
-# Nome do Jogo
+# Professor.exe
 
 Projeto final da disciplina de Introdução a Algoritmos/Programação, desenvolvido com Python e Pygame.
 
@@ -6,10 +6,10 @@ Este repositório é um template para os grupos da disciplina. A proposta é com
 
 ## Integrantes do grupo
 
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
-- Nome do integrante 4
+- Igor Caetano Tibério Figueiredo
+- Brendon Leonardo Martins Alves
+- Danilo Amaral Nadu
+- Brendon Leonardo Martins Alves
 
 ## Estrutura do projeto
 
@@ -22,30 +22,31 @@ Este repositório é um template para os grupos da disciplina. A proposta é com
 
 ## Descrição do jogo
 
-Descreva brevemente a ideia principal do jogo.
+O Professor.exe é um jogo de investigação e tomada de decisões, no qual o jogador assume o papel de um professor responsável por corrigir avaliações escolares e identificar possíveis usos indevidos de inteligência artificial.
 
 Exemplo:
 
-> O jogo consiste em controlar um personagem que deve coletar moedas e evitar obstáculos. O jogador ganha pontos ao coletar itens e perde vidas ao colidir com obstáculos. A partida termina quando o tempo acaba ou quando o jogador perde todas as vidas.
+Durante a correção, o jogador deverá analisar as respostas dos alunos, identificar inconsistências e consultar um detector de IA que nem sempre apresenta resultados corretos. Conforme o jogo avança, as avaliações se tornam mais complexas, exigindo maior atenção e pensamento crítico.
 
 ## Objetivo do jogador
 
-Explique o que o jogador precisa fazer para vencer ou avançar no jogo.
+O objetivo é corrigir as avaliações de maneira justa, identificando possíveis irregularidades sem acusar injustamente os alunos.
 
+O jogador deverá analisar as respostas, consultar evidências e decidir se uma avaliação deve ser aceita ou encaminhada para investigação. Para avançar, será necessário manter uma boa reputação e atingir a pontuação mínima de cada fase.
 Exemplo:
-
-> O objetivo é coletar a maior quantidade possível de itens antes que o tempo acabe, evitando colisões com os obstáculos.
 
 ## Regras do jogo
 
-Liste as principais regras do jogo.
-
-Exemplo:
-
-- O jogador se movimenta usando as setas do teclado.
-- Cada item coletado aumenta a pontuação.
-- Colidir com um obstáculo reduz a quantidade de vidas.
-- A partida termina quando o jogador perde todas as vidas ou quando o tempo acaba.
+- O jogador recebe avaliações contendo perguntas e respostas de diferentes alunos.
+- Cada avaliação poderá apresentar inconsistências, informações incorretas ou indícios de uso indevido de IA.
+- O jogador poderá consultar um detector de inteligência artificial, mas suas recomendações nem sempre serão confiáveis.
+- O jogador poderá investigar evidências adicionais antes de tomar uma decisão.
+- Cada decisão correta aumenta a pontuação.
+- Acusar injustamente um aluno ou ignorar irregularidades comprovadas reduz a pontuação e a reputação.
+- O jogador terá uma quantidade limitada de recursos para investigar as avaliações.
+- O jogo será dividido em dias de trabalho, com dificuldade progressiva.
+- Para avançar, o jogador deverá atingir a pontuação mínima e manter sua reputação acima do limite estabelecido.
+- A partida termina quando o jogador conclui todos os dias de trabalho ou perde toda a sua reputação.
 
 ## Controles
 
@@ -53,12 +54,12 @@ Informe as teclas ou comandos utilizados no jogo.
 
 Exemplo:
 
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
+- Mouse: selecionar avaliações, botões e opções disponíveis.
+- Botão esquerdo do mouse: abrir provas, consultar o detector de IA e investigar evidências.
+- Botão "Aceitar": aprovar a avaliação.
+- Botão "Investigar": encaminhar a avaliação para uma análise adicional.
+- Botão "Próxima prova": avançar para a próxima avaliação após registrar uma decisão.
+- ESC: pausar o jogo ou acessar o menu.
 
 ## Como executar o projeto
 
